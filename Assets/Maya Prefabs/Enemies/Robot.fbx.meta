@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 04961af752cb22b499fac15098e7f43a
+timeCreated: 1522313370
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Head1
+    100004: Head2
+    100006: Head_joint
+    100008: Hip_joint
+    100010: Left_Arm
+    100012: Left_Clavicle
+    100014: Left_Elbow
+    100016: Left_ElbowToArm
+    100018: Left_Leg_bottom_joint
+    100020: Left_Leg_Foot_joint
+    100022: Left_Leg_Knee_joint
+    100024: Left_LegUp_joint
+    100026: Left_Up_Shoulder
+    100028: Neck_01_joint
+    100030: Neck_joint
+    100032: Right_Arm
+    100034: Right_Clavicle
+    100036: Right_Elbow
+    100038: Right_ElbowToArm
+    100040: Right_Leg_bottom_joint
+    100042: Right_Leg_Foot_joint
+    100044: Right_Leg_Knee_joint
+    100046: Right_LegUp_joint
+    100048: Right_Up_Shoulder
+    100050: //RootNode
+    100052: Spine_02_joint
+    100054: Spine_03_joint
+    100056: Spine_joint
+    100058: transform1
+    100060: transform2
+    400000: Body1
+    400002: Head1
+    400004: Head2
+    400006: Head_joint
+    400008: Hip_joint
+    400010: Left_Arm
+    400012: Left_Clavicle
+    400014: Left_Elbow
+    400016: Left_ElbowToArm
+    400018: Left_Leg_bottom_joint
+    400020: Left_Leg_Foot_joint
+    400022: Left_Leg_Knee_joint
+    400024: Left_LegUp_joint
+    400026: Left_Up_Shoulder
+    400028: Neck_01_joint
+    400030: Neck_joint
+    400032: Right_Arm
+    400034: Right_Clavicle
+    400036: Right_Elbow
+    400038: Right_ElbowToArm
+    400040: Right_Leg_bottom_joint
+    400042: Right_Leg_Foot_joint
+    400044: Right_Leg_Knee_joint
+    400046: Right_LegUp_joint
+    400048: Right_Up_Shoulder
+    400050: //RootNode
+    400052: Spine_02_joint
+    400054: Spine_03_joint
+    400056: Spine_joint
+    400058: transform1
+    400060: transform2
+    4300000: Head2
+    7400000: Robot_Move
+    9500000: //RootNode
+    13700000: Head2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Robot_Move
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body1
+        weight: 1
+      - path: Body1/transform1
+        weight: 1
+      - path: Head1
+        weight: 1
+      - path: Head1/transform2
+        weight: 1
+      - path: Head2
+        weight: 1
+      - path: Hip_joint
+        weight: 1
+      - path: Hip_joint/Left_LegUp_joint
+        weight: 1
+      - path: Hip_joint/Left_LegUp_joint/Left_Leg_Knee_joint
+        weight: 1
+      - path: Hip_joint/Left_LegUp_joint/Left_Leg_Knee_joint/Left_Leg_Foot_joint
+        weight: 1
+      - path: Hip_joint/Left_LegUp_joint/Left_Leg_Knee_joint/Left_Leg_Foot_joint/Left_Leg_bottom_joint
+        weight: 1
+      - path: Hip_joint/Right_LegUp_joint
+        weight: 1
+      - path: Hip_joint/Right_LegUp_joint/Right_Leg_Knee_joint
+        weight: 1
+      - path: Hip_joint/Right_LegUp_joint/Right_Leg_Knee_joint/Right_Leg_Foot_joint
+        weight: 1
+      - path: Hip_joint/Right_LegUp_joint/Right_Leg_Knee_joint/Right_Leg_Foot_joint/Right_Leg_bottom_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Left_Clavicle
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Left_Clavicle/Left_Up_Shoulder
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Left_Clavicle/Left_Up_Shoulder/Left_Elbow
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Left_Clavicle/Left_Up_Shoulder/Left_Elbow/Left_ElbowToArm
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Left_Clavicle/Left_Up_Shoulder/Left_Elbow/Left_ElbowToArm/Left_Arm
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Neck_01_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Neck_01_joint/Head_joint
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Right_Clavicle
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Right_Clavicle/Right_Up_Shoulder
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Right_Clavicle/Right_Up_Shoulder/Right_Elbow
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Right_Clavicle/Right_Up_Shoulder/Right_Elbow/Right_ElbowToArm
+        weight: 1
+      - path: Hip_joint/Spine_joint/Spine_02_joint/Spine_03_joint/Neck_joint/Right_Clavicle/Right_Up_Shoulder/Right_Elbow/Right_ElbowToArm/Right_Arm
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
